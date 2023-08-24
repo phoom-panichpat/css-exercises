@@ -20,9 +20,13 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+/* edit */
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
-.icon {
+.alert_icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -33,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+/* edit */
+  flex: none;
 }
 
 .close-button {
@@ -66,4 +72,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+
+/* new divs */
+
+.header {
+  font-weight: 700;
+  margin-right: auto;
+  font-size: 20px;
+  
+}
+
+.head_text_button{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.head_x{
+  display:flex;
+}
+
+.buttons {
+
 }
